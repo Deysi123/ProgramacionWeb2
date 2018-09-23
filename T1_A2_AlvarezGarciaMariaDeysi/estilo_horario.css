@@ -1,0 +1,48 @@
+table,th, td{
+
+			border: 1px solid gray;
+			
+			}
+table td{
+
+	height: 35px;
+	font-size: 17px;
+
+
+}
+
+tr .dias{
+	background-color:#9ACD32;
+	font-size: 20px;
+	
+
+} 
+
+.dias,#h{
+	width: 100px;
+
+	
+	
+}
+
+#encabezado{
+	font-size: 25px;
+	background-color:#556B2F;
+	color: white;
+}
+
+.horas{
+	text-align: center;
+	font-weight: bold;
+	background-color:#9ACD32;
+}
+
+#Receso{
+	text-align: center;
+	font-weight: bold;
+	background-color:#C0C0C0;
+}
+
+#columna{
+	background-color:#C0C0C0;
+}
