@@ -1,0 +1,160 @@
+
+#formulario{
+    float:right;
+    min-width: 40%; 
+    margin-right:5%;
+    
+}
+
+#imagen{
+    
+    float:left;
+    background-color: red;
+    background-image: url(Imagenes/twitter31.jpg);
+    min-width: 50%;
+    height: 100%;
+}
+
+.publicidad{
+    font-size: 20px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    text-align: center;
+    color: azure;
+    
+}
+
+a{
+    text-decoration: none;
+    color:darkgray
+}
+
+input{
+    
+    font-size-adjust: auto;
+    height: 25px;
+}
+
+#descripcion{
+    
+    font-size: 20px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    
+}
+
+#descripcion2{
+    
+    font-size: 15px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    
+}
+
+#button1{
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    height: 30px;
+    border: 1px solid #1DBFE3; 
+    color: #1DBFE3;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Segoe UI;
+    margin-left: 10px;
+    
+}
+
+#button2{
+    border-radius: 12px;
+    background-color: #1DBFE3;
+    color: black;
+    border: 1px solid #1DBFE3;
+    width: 300px; 
+    height: 30px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Segoe UI;
+}
+
+#button3{
+    margin-top: 15px;
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    border: 1px solid #1DBFE3;
+    width: 300px; 
+    height: 30px;
+    color: #1DBFE3;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Segoe UI;
+    
+}
+
+#contenido{
+    margin-left:12%;
+    margin-top: 7%;
+}
+
+footer{
+    clear: left;
+    border-top: 1px solid #369;
+    min-width: 100%;
+    font-family: Calibri;
+    text-align: center;
+}
+
+footer a{
+    margin-left: 12px;
+}
+
+
+@viewport{
+    zoom:1.0;
+    width: device-width;
+}
+
+
+@media all and (max-width: 1000px) {
+    
+    
+    #formulario{
+        float:left;
+        min-width: 100%; 
+    } 
+    
+    #imagen{
+    
+        float: right;
+        background-color: red;
+        min-width: 100%;
+    }
+
+    input{
+        margin-bottom: 10px;
+        margin-left: 10px !important;
+    }
+    
+    div a{
+        margin-left: 10px !important;
+    }
+    
+    #contenido{
+        margin-left:10px;
+        min-width: 100%; 
+        
+    }
+    #button2{
+       
+        width: 220px; 
+        height: 25px;
+    }
+    #button3{
+       
+        width: 220px; 
+        height: 25px;
+    }
+
+}
